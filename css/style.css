@@ -39,6 +39,22 @@
     --Very-Dark-Blue-Text: hsl(230, 17%, 14%);
 }
 
+::-webkit-scrollbar {
+    background: #242424;
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #242424;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--Dark-Grayish-Blue-Text);
+}
+
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     background: var(--Very-Dark-Blue-BG);
@@ -252,4 +268,53 @@ header {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+
+
+
+@media (max-width: 900px) {
+    #app {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 500px) {
+    .main-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .additional-stat-cards  {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 376px) {
+    .dark-mode-text {
+        gap: .2rem;
+    }
+
+    
+
+    .dark-mode-toggle-wrapper {
+        
+    }
+    
+    .main-stats {
+        display: block;
+    }
+
+    .main-stat-box, .additional-stat-card {
+        margin-bottom: 2rem;
+    }
+
+    .additional-stat-cards  {
+        display: block;
+    }
+}
+
+@media (max-width:320px) {
+    .app-title {
+        font-size: 1.3rem;       
+    }
 }
