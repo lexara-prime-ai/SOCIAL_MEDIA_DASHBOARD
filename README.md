@@ -1,5 +1,10 @@
 # Frontend Mentor - Social media dashboard with theme switcher
 
+## Screenshots
+*Dark Mode*
+
+![](https://github.com/projectfinalaudio/SOCIAL_MEDIA_DASHBOARD/blob/master/screenshots/dark%20mode.png?raw=true)
+
 ![Design preview for the Social media dashboard with theme switcher coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
